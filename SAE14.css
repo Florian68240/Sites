@@ -1,0 +1,183 @@
+
+
+h1 {
+    font-family: 'Goudy Old Style', cursive;
+    text-align: center;
+    color: rgb(235, 228, 17);
+    font-size: 6.5em;
+    margin-top: 120px;
+    text-shadow: 1px 3px 2px black;
+  }
+  
+h2 {
+  text-align: center;
+  color:rgb(135, 104, 193);
+  font-size: 4.5em;
+  text-shadow: 1px 3px 2px black;
+  font-family: 'Goudy Old Style', cursive;
+}
+
+#logo {
+  font-family: 'Georgia', cursive;
+  font-weight: bold;
+  float: left;
+} 
+h3 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+  }
+
+#Moi{
+    color: rgb(196, 21, 21);
+    font-size: 80%;
+    order: 1; 
+    text-align: left;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h4 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+}
+
+#Mascolarité{
+    color: rgb(246, 244, 242);
+    font-size: 80%;
+    order: 1; 
+    text-align: left;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h5 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+}
+
+#mesexpériences{
+    color: rgb(56, 196, 21);
+    font-size: 80%;
+    order: 1; 
+    text-align: left;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#logo{
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+  float: left;
+  font-size: 40px;
+
+}
+li {
+  list-style-type: none;
+}
+
+input, textarea, button {
+  border: none;
+  width: 55%;
+  padding: 15px 10px;
+  margin: 1px 0;
+  font-size: 0.8em;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  border-radius: 8px;
+  border-color: black;
+}
+textarea {
+  height: 60px;
+}
+button {
+  font-size: 0.8em;
+  background-color: #f5f5f5;
+  text-align: center;
+
+}
+button:hover {
+  background-color: #e55039;
+  color: #FFFAE1;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+body{
+    background-image: url(https://wallpapercave.com/wp/wp2253864.jpg);
+    background-color : rgba(10, 10, 193, 0.2);
+    background-size : cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+
+  nav 
+{
+  border-radius: 20px;
+  border-color: black;
+  border-style: solid;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(248,122,20,0.3);
+}
+
+header li {
+  float: right;
+  font-size: 1.6em;
+}
+header li a {
+  text-decoration: underline;
+  display: block;
+  text-align: center;
+  padding: 28px 22px;
+
+}
+
+nav .main_pages 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+nav .main_pages a 
+{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace
+}
+ 
+nav a:hover 
+{
+  background-color: rgb(248,122,20,0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(31, 2, 2, 0.5);
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+  width: 40%;
+}

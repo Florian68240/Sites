@@ -1,0 +1,189 @@
+h1 {
+    font-family: 'Goudy Old Style', cursive;
+    text-align: center;
+    color: rgb(235, 228, 17);
+    font-size: 5.5em;
+    margin-top: 120px;
+    text-shadow: 1px 3px 2px black;
+  }
+  
+h2 {
+  text-align: center;
+  color:rgb(112, 49, 228);
+  font-size: 4em;
+  text-shadow: 1px 3px 2px black;
+  font-family: 'Goudy Old Style', cursive;
+}
+
+#logo {
+  font-family: 'Georgia', cursive;
+  font-weight: bold;
+  float: left;
+} 
+h3 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+  }
+
+#Définition{
+    color: rgb(196, 21, 21);
+    order: 1; 
+    text-align: left;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h4 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 1,5em;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+}
+
+#Règles{
+    color: rgb(230, 120, 4);
+    order: 1; 
+    text-align: left;
+    font-size: 1em;
+    text-shadow: 1px 1px 1px black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h5 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+}
+
+#Résumé{
+    color: rgb(56, 196, 21);
+    order: 1; 
+    text-align: left;
+    font-size: 1em;
+    text-shadow: 1px 1px 1px black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#logo{
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+  float: left;
+  font-size: 40px;
+
+}
+li {
+  list-style-type: none;
+}
+
+input, textarea, button {
+  border: none;
+  width: 55%;
+  padding: 15px 10px;
+  margin: 1px 0;
+  font-size: 0.8em;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  border-radius: 8px;
+  border-color: black;
+}
+textarea {
+  height: 60px;
+}
+button {
+  font-size: 0.8em;
+  background-color: #f5f5f5;
+  text-align: center;
+
+}
+button:hover {
+  background-color: #e55039;
+  color: #FFFAE1;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+#Exemples {
+    color: rgb(59, 21, 196);
+    order: 1; 
+    text-align: left;
+    font-size: 1.75em;
+    text-shadow: 1px 1px 1px black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h6 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+}
+
+  nav 
+{
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+      overflow: hidden;
+      width: 100%;
+      background-color: rgba(55, 119, 130, 0.901);
+        
+}
+
+header li {
+  float: right;
+  font-size: 1.6em;
+}
+header li a {
+  text-decoration: underline;
+  display: block;
+  text-align: center;
+  padding: 28px 22px;
+
+}
+
+nav .main_pages 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+nav .main_pages a 
+{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace
+}
+ 
+nav a:hover 
+{
+    background-color: rgba(55, 119, 130, 0.901);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    body{
+  
+        background-image: url(https://lh3.googleusercontent.com/Dcd5TPUpiLkS79aAH4wY-SNI9xRUBELMaGEj65_wATo4TmuawuC2cfZjkhGujNio6vKe=w800-h500-rw);
+        background-color : rgba(29, 0, 248, 0.2);
+        background-size : cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+
+    
